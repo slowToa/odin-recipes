@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    color: darkcyan;
+}
+
+@font-face {
+    font-family: "Ani";
+    src: 
+        local("Ani");
+}
+
+.title {
+    font-family: Ani, sans-serif;
+    font-size: 100px; 
+    color: lightseagreen;
+    text-shadow:3px 3px 3px blue;
+}
+
+.title.to-home {
+    font-size: 40px;
+}
+
+li {
+    line-height: 27px;
+}
+
+h1,
+h4 {
+    color: blue;
+}
+
+h4 {
+    padding-top: 30px;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+#recipes,
+#recipes a {
+    line-height: 50px;
+    font-size: 30px;
+}
